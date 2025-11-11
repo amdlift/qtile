@@ -157,6 +157,7 @@ sep = widget.Sep(linewidth=1, padding=8, foreground=colors[9])
 
 screens = [
     Screen(
+        wallpaper = '.config/qtile/backgrounds/astronaut.jpg',
         top=bar.Bar(
             widgets = [
                 widget.Spacer(length = 8),
